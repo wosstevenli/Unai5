@@ -9,12 +9,12 @@
 .choosetime{
     z-index: 1;
     width: 90%;
-    height: 30px;
+    height: 34px;
     margin: 0 auto;
     color:#999;
     border-radius: 20px;
-    border: 1px solid rgb(15, 164, 223);
-    line-height: 30px;
+    border: 1px solid #0088ff;
+    line-height: 34px;
     font-size: 12px;
 }
 .choose{
@@ -22,16 +22,52 @@
     float: left;
     width: 10.5%;
     border: 1px solid #eee;
-    line-height: 28px;
+    line-height: 30px;
     display: block;
 }
 .first{
     border-radius: 20px 0 0 20px;
 }
 .last{
+    width: 16%;
     border-radius: 0 20px 20px 0;
 }
 .choosed{
-    background-color: rgb(15, 164, 223);
+    background-color:#0088ff;
     color: #fff;
+}
+.tdinfo{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.info4{
+    line-height: 34px;
+    width: 25%;
+    display: block;
+    float: left;
+    background-color: #FFF;
+    text-align: center;
+}
+.info4:nth-child(odd)
+{
+background-color: #0088FF;
+color: #FFF;
+}
+.info4:nth-child(even)
+{
+background-color: #EEE;
+color: #FFF;
+}
+.info4:nth-child(2)
+{
+color: rgb(236, 16, 16);
+}
+.info4:nth-child(4)
+{color: rgb(12, 185, 69);}
+.info4f{
+    border-radius: 8px 0 0 8px;
+}
+.info4l{
+    border-radius: 0 8px 8px 0;
 }
